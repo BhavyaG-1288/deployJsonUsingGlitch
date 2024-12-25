@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id ="name" type ="text" placeholder="Enter Name">
+    <button id ="btn">Add User</button>
+
+
+    <button id ="btn1">Update user id 1</button>
+    <button id ="btn2">Delete User id </button>
+</body>
+<script>
+//Delete Data
+let btn2= document.getElementById("btn2")
+btn2.addEventListener("click",function() {
+    try{
+ await.fetch("http://localhost:3200/User 1",{
+    method:"DELETE",
+ })
+    alert("User Deleted")
+    }catch(err){
+        console.log("err",err)
+  }
+})
+
+
+
+
+
+//update Data
+let btn1= document.getElementById("btn1")
+btn1.addEventListener("click",function() {
+    try{
+ await.fetch("http://localhost:3200/User 1",{
+    method:"PATCH",
+    headers:{
+        "content-type":"application/json"
+    },
+    body:JSON.stringify({name:"charlie"})
+ })
+    alert("Data Upadated")
+    }catch(err){
+        console.log("err",err)
+  }
+})
+
+
+
+
+
+
+//postdata
+//postData()
+let btn =document.getElementById("btn");
+btn.addEventListener("click", async function() {
+    console.log(btn)
+    let name =document.getElementById("name").value;
+    try{
+      let res=  await fetch("http://localhost:3200/User",{
+           method:"POST",
+           headers:{
+             "content-type":"application/json"
+           },
+           body:JSON.stringify({name}) 
+        })
+
+        console.log("User Added")
+    }catch(err){
+        console.log(err)
+    }
+})
+
+
+
+
+//getData
+    getData()
+    async function getData() {
+        try{
+            let res =await fetch("http://localhost:3200/User")
+            let data = await res.json()
+            console.log(data)
+        }catch(err){
+            console.log(data)
+        }
+        
+    }
+</script>
+</html>
