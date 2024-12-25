@@ -1,64 +1,40 @@
 {
-  "posts": [
+  "User": [
     {
-      "id": "1",
-      "title": "First Post",
-      "views": 150
+      "name": "Bhavya",
+      "age":28,
+      "email":"b@g"
+      
     },
     {
-      "id": "2",
-      "title": "Second Post",
-      "views": 250
+      "name": "Bhanu",
+      "age":26,
+      "email":"l@g"
+      
     },
     {
-      "id": "3",
-      "title": "Third Post",
-      "views": 350
+      "name": "Lavanya",
+      "age":38,
+      "email":"j@l"
+      
     },
     {
-      "id": "4",
-      "title": "Fourth Post",
-      "views": 450
+      "name": "Alekhya",
+      "age":36,
+      "email":"m@a"
+      
+    },
+    {
+      "name": "vikshitha",
+      "age":12,
+      "email":"j@v"
+      
+    },
+    {
+      "name": "Naithik",
+      "age":7,
+      "email":"j@n"
+      
     }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "Great post!",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "Very informative.",
-      "postId": "2"
-    },
-    {
-      "id": "3",
-      "text": "I enjoyed reading this.",
-      "postId": "3"
-    },
-    {
-      "id": "4",
-      "text": "Thanks for sharing!",
-      "postId": "4"
-    },
-    {
-      "id": "5",
-      "text": "Awesome post!",
-      "postId": "5"
-    }
-  ],
-  "todos":[{
-    "id":1,
-    "name":"Learn JSON"
-  },
-  {
-    "id":2,
-    "name":"Learn React"
-  },
-  {
-    "id":3,
-    "name":"Learn Glitch"
-  }
   ]
 }
