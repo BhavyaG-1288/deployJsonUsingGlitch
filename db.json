@@ -1,40 +1,8 @@
 {
   "User": [
     {
+      "id":"1",
       "name": "Bhavya",
-      "age":28,
-      "email":"b@g"
-      
-    },
-    {
-      "name": "Bhanu",
-      "age":26,
-      "email":"l@g"
-      
-    },
-    {
-      "name": "Lavanya",
-      "age":38,
-      "email":"j@l"
-      
-    },
-    {
-      "name": "Alekhya",
-      "age":36,
-      "email":"m@a"
-      
-    },
-    {
-      "name": "vikshitha",
-      "age":12,
-      "email":"j@v"
-      
-    },
-    {
-      "name": "Naithik",
-      "age":7,
-      "email":"j@n"
-      
     }
   ]
 }
