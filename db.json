@@ -2,11 +2,45 @@
   "User": [
     {
       "id":"1",
+      "email":"gbhavya2017@gmail.com",
       "name": "Bhavya",
+      "password":123
     },
     {
       "id":"2",
+      "email":"gbhanu2014@gmail.com",
       "name": "Bhanu",
+      "password":456
     }
-  ]
-}
+  ],
+  "products":{
+    "vegetables":[
+      { "name": "Apple", "weight": "1kg", "price": 300, "image": "Order-On_Line-Project/assets/images/fruits/apples.jpg","category": "fruits" },
+      { "name": "Banana", "weight": "1kg", "price": 80, "image": "Order-On_Line-Project/assets/images/fruits/banana.jpg","category": "fruits" }
+
+    ],
+    "fruits":[
+      { "name": "Papaya", "weight": "500g", "price": 50,"image": "Order-On_Line-Project/assets/images/fruits/papaya.jpg","category": "fruits" },
+      { "name": "Pomegranate", "weight": "1kg", "price": 249, "image": "Order-On_Line-Project/assets/images/fruits/pomogrante.jpg","category": "fruits" },
+      { "name": "Watermelon", "weight": "1kg (2.5kg)","price": 75, "image": "Order-On_Line-Project/assets/images/fruits/watermelon.jpg","category":"fruits"},
+      { "name": "Dragon Fruit", "weight": "2 pieces", "price": 200, "image": "Order-On_Line-Project/assets/images/fruits/dragon.jpg","category": "fruits"}
+    ],
+    "Dairy":[
+      { "name": "BadamMilk", "weight": "1 liter", "price": 50, "image": "Order-On_Line-Project/assets/images/dairy/badham.jpg", "category": "dairy" },
+      { "name": "Butter", "weight": "500g", "price": 200, "image": "Order-On_Line-Project/assets/images/dairy/butter.jpg", "category": "dairy" },
+      { "name": "Butter", "weight": "500g", "price": 200, "image": "Order-On_Line-Project/assets/images/dairy/curd.jpg", "category": "dairy"}
+],
+"Baby-care":[
+  {"name":  "b-care", "weight":"packet","price":500,"image":"Order-On_Line-Project/assets/images/babyproducts/jin baby.jpg"}
+
+
+
+
+]
+
+    }
+    
+      
+  }
+
+  
